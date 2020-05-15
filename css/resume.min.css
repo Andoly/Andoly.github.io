@@ -152,17 +152,19 @@ section.resume-section .resume-item .resume-date {
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+	gap: 30px;
+	padding:20px;
 }
 .card {
     background-color: var(--color-rocket);
     display: flex;
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .card_image-container img{
-    width: 100%;
+	width: 100%;
+	padding:20px;
 }
 
 .video {
@@ -172,14 +174,16 @@ section.resume-section .resume-item .resume-date {
 
 .card_video-container{
     position: relative;
-    padding-top: 62.5%;
+	padding-top: 62.5%;
+	
 }
 
 .card_video-container iframe{
     width: 80%;
     height: 80%;
     position: absolute;
-    top: 3%;
+	top: 3%;
+	padding:20px;
 }
 
 
